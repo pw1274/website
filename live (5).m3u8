@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=324902,RESOLUTION=426x240
+https://stream.pwjarvis.app/live?v=https://d2eet1sce4gcdd.cloudfront.net/index.m3u8&start=1727786700&quality=240
+#EXT-X-STREAM-INF:BANDWIDTH=474560,RESOLUTION=640x360
+https://stream.pwjarvis.app/live?v=https://d2eet1sce4gcdd.cloudfront.net/index.m3u8&start=1727786700&quality=360
+#EXT-X-STREAM-INF:BANDWIDTH=531868,RESOLUTION=854x480
+https://stream.pwjarvis.app/live?v=https://d2eet1sce4gcdd.cloudfront.net/index.m3u8&start=1727786700&quality=480
+#EXT-X-STREAM-INF:BANDWIDTH=1092346,RESOLUTION=1280x720
+https://stream.pwjarvis.app/live?v=https://d2eet1sce4gcdd.cloudfront.net/index.m3u8&start=1727786700&quality=720
