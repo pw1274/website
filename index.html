@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+</head>
+<body>
+    <h1>Video Player</h1>
+    <video id="videoPlayer" width="640" height="360" controls>
+        <source id="videoSource" src="" type="application/x-mpegURL">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        const videoId = 'b11682bf-cae1-495e-bc79-e8183fb4dc10'; // Tumhari video ID
+        const baseUrl = 'https://studybuddyofficial.vercel.app'; // Tumhara domain
+
+        // HLS streams ke URLs
+        const streamQualities = [
+            { quality: '240', bandwidth: 279896 },
+            { quality: '360', bandwidth: 426723 },
+            { quality: '480', bandwidth: 545886 },
+            { quality: '720', bandwidth: 1251806 },
+        ];
+
+        // Video source set karo
+        const videoSource = document.getElementById('videoSource');
+        videoSource.src = `${baseUrl}/${videoId}/hls/720/main.m3u8`; // Default quality ko set karo
+
+        // Video player ko reload karo
+        const videoPlayer = document.getElementById('videoPlayer');
+        videoPlayer.load();
+    </script>
+</body>
+</html>
