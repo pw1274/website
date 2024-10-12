@@ -1,39 +1,28 @@
-import re
+import requests
+import json
 
-def replace_domain_and_vid_id(m3u8_content, new_domain):
-    # Find and replace all URLs that match the pattern
-    def url_replacer(match):
-        # Extract the video ID from the matched URL
-        video_id = match.group(1)
-        quality = match.group(2)
-        # Reconstruct the URL with the new domain and same query params
-        return f"https://{new_domain}/pw-vid/{video_id}/hls/{quality}/main.m3u8{match.group(3)}"
-    
-    # Pattern to find URLs in the m3u8 content
-    pattern = r'https://tgxapi\.vercel\.app/pw-vid/([a-zA-Z0-9-]+)/hls/([0-9]+)/main\.m3u8(\?.*)'
+# API URL
+api_url = "https://api.penpencil.co/v2/batches/neev-2025-677246/subject/physics-591199/contents?page=1&contentType=videos&tag=motion-937143"
 
-    # Replace the URLs using the url_replacer function
-    new_m3u8_content = re.sub(pattern, url_replacer, m3u8_content)
+# Headers with token
+headers = {
+    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjkxNjI4MTEuODkxLCJkYXRhIjp7Il9pZCI6IjYzZmIwMTk3Mjc5MjVhMDAxOGVhYTkyOSIsInVzZXJuYW1lIjoiNjAwNTE2MTk2MyIsImZpcnN0TmFtZSI6IkF5dXNocmFqIiwibGFzdE5hbWUiOiJTSU5HSCIsIm9yZ2FuaXphdGlvbiI6eyJfaWQiOiI1ZWIzOTNlZTk1ZmFiNzQ2OGE3OWQxODkiLCJ3ZWJzaXRlIjoicGh5c2ljc3dhbGxhaC5jb20iLCJuYW1lIjoiUGh5c2ljc3dhbGxhaCJ9LCJlbWFpbCI6InJzODY1NzIyN0BnbWFpbC5jb20iLCJyb2xlcyI6WyI1YjI3YmQ5NjU4NDJmOTUwYTc3OGM2ZWYiLCI1YjI3YmQ5NjU4NDJmOTUwYTc3OGM2ZWYiXSwiY291bnRyeUdyb3VwIjoiSU4iLCJ0eXBlIjoiVVNFUiJ9LCJpYXQiOjE3Mjg1NTgwMTF9.TIbdXKz9N3Jn1fntrhLNnVFnEzMHK0gvwX3TdX62Jdw',  # Replace with your actual token
+    'Content-Type': 'application/json'
+}
 
-    return new_m3u8_content
+# Send GET request to the API with headers
+response = requests.get(api_url, headers=headers)
 
-# Original m3u8 content
-m3u8_content = """
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=279896,RESOLUTION=426x240
-https://tgxapi.vercel.app/pw-vid/{video_id}/hls/240/main.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMWQzNHA4dno2M29pcS5jbG91ZGZyb250Lm5ldC8zMzk0NDk1Zi01NDljLTQyODUtOWQxYS0wMTdmNmY1MzQ3YmEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyODI2NDAxNX19fV19&Key-Pair-Id=APKAJBP3D6S2IU5JK4LQ&Signature=hbusvBjWtHprLhVQT9I-CmGYPRy7STsrJulevMcVjrUDGxKObKm4ssoEHkVhtbM2eNNmv~A~UlXyNW2tAGlusoTrowXqV-U1q4iuviAr5gOvrx1xvTvBRJi8EeAInpIDqSZcoD1~z8asybVC--UWErhfG9KJ-dfO0yYypYI7FkvZODJkGGoFExB7wAj0yP3grr2UXy3~hNCw~CSKEzIAbfxKOSIPquBVa660J3UhMl3MPzb6LYikexijW7RUQOzth5VQlw-Sk7N9Zn3jzHXxUsdUId9-Pcm2KWOULP0~M17~rBWmJOMco1H7x4etjOcWeqOqRpn2nN-5yLbsS5301g__
-#EXT-X-STREAM-INF:BANDWIDTH=426723,RESOLUTION=640x360
-https://tgxapi.vercel.app/pw-vid/{video_id}/hls/360/main.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMWQzNHA4dno2M29pcS5jbG91ZGZyb250Lm5ldC8zMzk0NDk1Zi01NDljLTQyODUtOWQxYS0wMTdmNmY1MzQ3YmEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyODI2NDAxNX19fV19&Key-Pair-Id=APKAJBP3D6S2IU5JK4LQ&Signature=hbusvBjWtHprLhVQT9I-CmGYPRy7STsrJulevMcVjrUDGxKObKm4ssoEHkVhtbM2eNNmv~A~UlXyNW2tAGlusoTrowXqV-U1q4iuviAr5gOvrx1xvTvBRJi8EeAInpIDqSZcoD1~z8asybVC--UWErhfG9KJ-dfO0yYypYI7FkvZODJkGGoFExB7wAj0yP3grr2UXy3~hNCw~CSKEzIAbfxKOSIPquBVa660J3UhMl3MPzb6LYikexijW7RUQOzth5VQlw-Sk7N9Zn3jzHXxUsdUId9-Pcm2KWOULP0~M17~rBWmJOMco1H7x4etjOcWeqOqRpn2nN-5yLbsS5301g__
-#EXT-X-STREAM-INF:BANDWIDTH=545886,RESOLUTION=854x480
-https://tgxapi.vercel.app/pw-vid/{video_id}/hls/480/main.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMWQzNHA4dno2M29pcS5jbG91ZGZyb250Lm5ldC8zMzk0NDk1Zi01NDljLTQyODUtOWQxYS0wMTdmNmY1MzQ3YmEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyODI2NDAxNX19fV19&Key-Pair-Id=APKAJBP3D6S2IU5JK4LQ&Signature=hbusvBjWtHprLhVQT9I-CmGYPRy7STsrJulevMcVjrUDGxKObKm4ssoEHkVhtbM2eNNmv~A~UlXyNW2tAGlusoTrowXqV-U1q4iuviAr5gOvrx1xvTvBRJi8EeAInpIDqSZcoD1~z8asybVC--UWErhfG9KJ-dfO0yYypYI7FkvZODJkGGoFExB7wAj0yP3grr2UXy3~hNCw~CSKEzIAbfxKOSIPquBVa660J3UhMl3MPzb6LYikexijW7RUQOzth5VQlw-Sk7N9Zn3jzHXxUsdUId9-Pcm2KWOULP0~M17~rBWmJOMco1H7x4etjOcWeqOqRpn2nN-5yLbsS5301g__
-#EXT-X-STREAM-INF:BANDWIDTH=1251806,RESOLUTION=1280x720
-https://tgxapi.vercel.app/pw-vid/{video_id}/hls/720/main.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMWQzNHA4dno2M29pcS5jbG91ZGZyb250Lm5ldC8zMzk0NDk1Zi01NDljLTQyODUtOWQxYS0wMTdmNmY1MzQ3YmEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyODI2NDAxNX19fV19&Key-Pair-Id=APKAJBP3D6S2IU5JK4LQ&Signature=hbusvBjWtHprLhVQT9I-CmGYPRy7STsrJulevMcVjrUDGxKObKm4ssoEHkVhtbM2eNNmv~A~UlXyNW2tAGlusoTrowXqV-U1q4iuviAr5gOvrx1xvTvBRJi8EeAInpIDqSZcoD1~z8asybVC--UWErhfG9KJ-dfO0yYypYI7FkvZODJkGGoFExB7wAj0yP3grr2UXy3~hNCw~CSKEzIAbfxKOSIPquBVa660J3UhMl3MPzb6LYikexijW7RUQOzth5VQlw-Sk7N9Zn3jzHXxUsdUId9-Pcm2KWOULP0~M17~rBWmJOMco1H7x4etjOcWeqOqRpn2nN-5yLbsS5301g__
-"""
+# Check if the request was successful
+if response.status_code == 200:
+    # Parse JSON data
+    data = response.json()
 
-# Replace domain with your desired domain
-new_domain = "studybuddyofficial.vercel.app"
+    # Save the JSON data into a local file
+    with open("data.json", "w") as json_file:
+        json.dump(data, json_file)
 
-# Generate new m3u8 content
-new_m3u8_content = replace_domain_and_vid_id(m3u8_content, new_domain)
-print(new_m3u8_content)
+    print("JSON data saved to 'data.json'")
+else:
+    print(f"Failed to fetch data: {response.status_code}")
+    print(response.text)
