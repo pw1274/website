@@ -8,13 +8,13 @@
             "restrictedSchedule": false,
             "restrictedTime": 0,
             "batchSubjectId": "664c491819795b001896dec3",
-            "date": "2024-11-09T00:00:00.000Z",
+            "date": "2024-11-10T00:00:00.000Z",
             "teachers": [
                 "6627531c351dc7001898dd1d"
             ],
             "day": "SAT",
-            "startTime": "2024-11-09T13:00:00.000Z",
-            "endTime": "2024-11-09T17:00:00.000Z",
+            "startTime": "2024-11-10T11:34:00.000Z",
+            "endTime": "2024-11-10T13:04:00.000Z",
             "urlType": "awsVideo",
             "exerciseIds": [
                 {
