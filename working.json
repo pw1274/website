@@ -1,0 +1,672 @@
+{
+    "success": true,
+    "data": [
+        {
+            "_id": "672e42a3bcb4c05cb03106ee",
+            "createdAt": "2024-11-08T16:56:03.428Z",
+            "updatedAt": "2024-11-09T16:15:17.336Z",
+            "restrictedSchedule": false,
+            "restrictedTime": 0,
+            "batchSubjectId": "664c491819795b001896dec3",
+            "date": "2024-11-09T00:00:00.000Z",
+            "teachers": [
+                "6627531c351dc7001898dd1d"
+            ],
+            "day": "SAT",
+            "startTime": "2024-11-09T13:00:00.000Z",
+            "endTime": "2024-11-09T17:00:00.000Z",
+            "urlType": "awsVideo",
+            "exerciseIds": [
+                {
+                    "_id": "672f5fc38298456a389237f3",
+                    "title": "Coordinate Geometry : DHA 04 MCQ Quiz",
+                    "slug": "coordinate-geometry---dha-04-mcq-quiz-007232",
+                    "content": [
+                        {
+                            "_id": "672f5fc38298456a389237f4",
+                            "exerciseId": {
+                                "_id": "672f5fc364a15645d7c3865f"
+                            },
+                            "timeline": []
+                        }
+                    ]
+                }
+            ],
+            "homeworkIds": [],
+            "tags": [
+                {
+                    "_id": "671fbd2de329f7e508257033",
+                    "name": "Coordinate Geometry"
+                }
+            ],
+            "topic": "Coordinate Geometry 04 : Section Formula || Midpoint Formula",
+            "isFree": false,
+            "isChatEnabled": true,
+            "isDoubtEnabled": true,
+            "isCommentDisabled": false,
+            "isPathshala": false,
+            "isDPPVideos": false,
+            "isDPPNotes": false,
+            "timeline": [],
+            "slug": "coordinate-geometry-04---section-formula-||-midpoint-formula-563591",
+            "status": "PENDING",
+            "batchIds": [],
+            "batchId": "65ddb1c70ccebd001804feb5",
+            "scheduleIds": [],
+            "zoomCohostId": [],
+            "contentType": [],
+            "emojiRefreshInterval": 60,
+            "id3Enabled": false,
+            "isAskSaarthiEnabled": false,
+            "isAutomatedDoubtAllocated": false,
+            "isContentSecurityEnabled": false,
+            "isEmojiEnabled": true,
+            "isNoteDisabled": false,
+            "isNotStudyDay": false,
+            "isPollsMigrated": false,
+            "isRecordingEnabled": false,
+            "isShareable": false,
+            "uWebSocketEnabled": true,
+            "lectureType": "LIVE",
+            "scheduleCode": "74UJ",
+            "scheduleType": "awsVideo",
+            "lowDataMode": false,
+            "whiteboardType": "NOTE3",
+            "qbgConceptTags": [],
+            "videoAnalytics": {
+                "isConvivaEnabled": false
+            },
+            "secondaryTeachers": [],
+            "videoMode": null,
+            "previewImageUrl": "",
+            "isSingleScheduling": true,
+            "isParentSchedule": true,
+            "updatedBy": "63cfc775b854fa001881a964",
+            "createdBy": "63525165907919001815e32b",
+            "__v": 0,
+            "conversationId": "672e42a3c93000ad0034c8bf",
+            "isMultiSchedule": false,
+            "ldmDelay": 1000,
+            "dppScheduleId": "672f58bdd242972a2c5c00b1",
+            "meetingId": "",
+            "meetingPassword": "",
+            "mediaChannelId": "3534416",
+            "mpOriginEndpointId": "mp-2022-11-20-09-42-21",
+            "url": "https://dct1nr0l2e20v.cloudfront.net/index.m3u8",
+            "videoDetails": {},
+            "ratingCount": 5,
+            "chapterId": "667d4c892f7a0d00181f9e4a",
+            "topicId": "6720b31c51cc0c361e18ac81",
+            "subjectId": {
+                "_id": "64366838c8fe900018a2a57a",
+                "name": "Mathematics",
+                "slug": "mathematics-039178"
+            },
+            "isBatchDoubtEnabled": true,
+            "dRoomId": "664c48940a8ec3f4b8e9ccdf",
+            "from": "BATCH_SCHEDULING_SERVICE",
+            "tag": "Live"
+        },
+        {
+            "_id": "672ed778d8aa551b9a42a29f",
+            "createdAt": "2024-11-09T03:31:04.956Z",
+            "updatedAt": "2024-11-09T03:31:04.956Z",
+            "restrictedSchedule": false,
+            "restrictedTime": 0,
+            "batchSubjectId": "65ddb1c70ccebd001804fec9",
+            "date": "2024-11-09T00:00:00.000Z",
+            "teachers": [],
+            "day": "SAT",
+            "startTime": "2024-11-09T04:30:00.000Z",
+            "endTime": "2024-11-09T04:30:00.000Z",
+            "urlType": "vimeo",
+            "exerciseIds": [],
+            "homeworkIds": [
+                {
+                    "_id": "672874ebc31cfbdd33d3f71c",
+                    "batchSubjectId": "65ddb1c70ccebd001804fec9",
+                    "topic": "Complete Subjective Test 01 : Test Syllabus || Udaan 2.0 2025",
+                    "note": "Test Syllabus",
+                    "attachmentIds": [
+                        {
+                            "_id": "672874e88b8973fa37a9c170",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/ADMIN/e9df90da-f9fb-40b1-b30c-5e7eb7bd1d62.pdf",
+                            "name": "Complete Subjective Test 01 _Test Syllabus.pdf"
+                        }
+                    ],
+                    "submissionDate": "2024-11-03T18:30:00.000Z",
+                    "actions": [
+                        "Open",
+                        "Download",
+                        "Print"
+                    ],
+                    "status": "Active"
+                }
+            ],
+            "tags": [
+                {
+                    "_id": "6693f35c058f22dabd073e27",
+                    "name": "Test Syllabus || PDF Only"
+                }
+            ],
+            "topic": "Complete Subjective Test 01 : Test Syllabus",
+            "isFree": false,
+            "isChatEnabled": false,
+            "isDoubtEnabled": false,
+            "isCommentDisabled": false,
+            "isPathshala": false,
+            "isDPPVideos": false,
+            "isDPPNotes": false,
+            "timeline": [],
+            "slug": "complete-subjective-test-01---test-syllabus-514735",
+            "status": "PENDING",
+            "batchIds": [],
+            "batchId": "65ddb1c70ccebd001804feb5",
+            "scheduleIds": [],
+            "zoomCohostId": [],
+            "contentType": [],
+            "emojiRefreshInterval": 60,
+            "id3Enabled": false,
+            "isAskSaarthiEnabled": false,
+            "isAutomatedDoubtAllocated": false,
+            "isContentSecurityEnabled": false,
+            "isEmojiEnabled": false,
+            "isNoteDisabled": false,
+            "isNotStudyDay": false,
+            "isPollsMigrated": false,
+            "isRecordingEnabled": false,
+            "isShareable": false,
+            "uWebSocketEnabled": true,
+            "lectureType": "LIVE",
+            "scheduleCode": "2S79",
+            "scheduleType": "vimeo",
+            "lowDataMode": false,
+            "whiteboardType": "NOTE3",
+            "qbgConceptTags": [],
+            "videoAnalytics": {
+                "isConvivaEnabled": false
+            },
+            "secondaryTeachers": [],
+            "videoMode": null,
+            "previewImageUrl": "",
+            "isSingleScheduling": true,
+            "isParentSchedule": true,
+            "updatedBy": "63525165907919001815e32b",
+            "createdBy": "63525165907919001815e32b",
+            "__v": 0,
+            "subjectId": {
+                "_id": "5f821b41c94a920018e76340",
+                "name": "Notices",
+                "slug": "notices-063024"
+            },
+            "isBatchDoubtEnabled": true,
+            "dRoomId": "664c48940a8ec3f4b8e9ccdf",
+            "from": "BATCH_SCHEDULING_SERVICE",
+            "tag": "Ended"
+        },
+        {
+            "_id": "672e416fd069ff7ad2cbc161",
+            "createdAt": "2024-11-08T16:50:55.980Z",
+            "updatedAt": "2024-11-09T15:23:34.765Z",
+            "restrictedSchedule": false,
+            "restrictedTime": 0,
+            "batchSubjectId": "664c4a47395fbd001855ca58",
+            "date": "2024-11-09T00:00:00.000Z",
+            "teachers": [
+                "6439463eb8e5fa0018cb0790"
+            ],
+            "day": "SAT",
+            "startTime": "2024-11-09T11:00:00.000Z",
+            "endTime": "2024-11-09T11:00:00.000Z",
+            "urlType": "penpencilvdo",
+            "exerciseIds": [],
+            "homeworkIds": [
+                {
+                    "_id": "672f3e7c44670bc0de3b317b",
+                    "batchSubjectId": "664c4a47395fbd001855ca58",
+                    "topic": "Literature 06 : Virtually True : Class Notes || Udaan 2.0 2025",
+                    "note": "Class Notes",
+                    "attachmentIds": [
+                        {
+                            "_id": "672f3e769145d14681c931c4",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/ADMIN/b978c915-7f3b-45d0-ba56-eb859f035f9d.pdf",
+                            "name": "Literature 06 _ Virtually True _Class Notes.pdf"
+                        }
+                    ],
+                    "submissionDate": "2024-11-08T18:30:00.000Z",
+                    "actions": [
+                        "Open",
+                        "Download",
+                        "Print"
+                    ],
+                    "status": "Active"
+                }
+            ],
+            "tags": [
+                {
+                    "_id": "667086adb96bafec9d70a429",
+                    "name": "Literature"
+                }
+            ],
+            "topic": "Literature 06 : Virtually True || No DHA || Recorded",
+            "isFree": false,
+            "isChatEnabled": false,
+            "isDoubtEnabled": true,
+            "isCommentDisabled": false,
+            "isPathshala": false,
+            "isDPPVideos": false,
+            "isDPPNotes": false,
+            "timeline": [],
+            "slug": "literature-06---virtually-true-||-no-dha-||-recorded-152227",
+            "status": "PENDING",
+            "batchIds": [],
+            "batchId": "65ddb1c70ccebd001804feb5",
+            "scheduleIds": [],
+            "zoomCohostId": [],
+            "contentType": [],
+            "emojiRefreshInterval": 60,
+            "id3Enabled": false,
+            "isAskSaarthiEnabled": false,
+            "isAutomatedDoubtAllocated": false,
+            "isContentSecurityEnabled": false,
+            "isEmojiEnabled": false,
+            "isNoteDisabled": false,
+            "isNotStudyDay": false,
+            "isPollsMigrated": false,
+            "isRecordingEnabled": false,
+            "isShareable": false,
+            "uWebSocketEnabled": true,
+            "lectureType": "RECORDED",
+            "scheduleCode": "K4BX",
+            "scheduleType": "penpencilvdo",
+            "lowDataMode": false,
+            "whiteboardType": "NOTE3",
+            "qbgConceptTags": [],
+            "videoAnalytics": {
+                "isConvivaEnabled": false
+            },
+            "secondaryTeachers": [],
+            "videoMode": null,
+            "previewImageUrl": "",
+            "isSingleScheduling": true,
+            "isParentSchedule": true,
+            "updatedBy": "63525165907919001815e32b",
+            "createdBy": "63525165907919001815e32b",
+            "__v": 1,
+            "isMultiSchedule": false,
+            "ldmDelay": 1000,
+            "meetingId": "",
+            "meetingPassword": "",
+            "url": "https://d1d34p8vz63oiq.cloudfront.net/bcbb9f72-fef6-4830-8731-8fcfb960aada/master.mpd",
+            "videoDetails": {
+                "_id": "672f4499ee237768aa10886d",
+                "id": "672f4499ee237768aa10886d",
+                "name": "Literature 06 : Virtually True || No DHA",
+                "image": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/5e81e5cc-3725-456d-bb35-081a5f53f7f5.png",
+                "videoUrl": "https://d1d34p8vz63oiq.cloudfront.net/bcbb9f72-fef6-4830-8731-8fcfb960aada/master.mpd",
+                "description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n\n</body>\n</html>",
+                "duration": "00:56:09",
+                "status": "Ready",
+                "types": [
+                    "DASH",
+                    "HLS"
+                ],
+                "createdAt": "2024-11-09T11:16:41.989Z",
+                "drmProtected": false
+            },
+            "subjectId": {
+                "_id": "664c4a317e83470018fa609e",
+                "name": "English (Communicative)",
+                "slug": "english--communicative--832448"
+            },
+            "isBatchDoubtEnabled": true,
+            "dRoomId": "664c48940a8ec3f4b8e9ccdf",
+            "from": "BATCH_SCHEDULING_SERVICE",
+            "tag": "Ended"
+        },
+        {
+            "_id": "672e41ec1fa7918dbdec759d",
+            "createdAt": "2024-11-08T16:53:00.028Z",
+            "updatedAt": "2024-11-09T15:30:13.449Z",
+            "restrictedSchedule": false,
+            "restrictedTime": 0,
+            "batchSubjectId": "664c4a035e4fa20018ecd829",
+            "date": "2024-11-09T00:00:00.000Z",
+            "teachers": [
+                "6439463eb8e5fa0018cb0790"
+            ],
+            "day": "SAT",
+            "startTime": "2024-11-09T11:00:00.000Z",
+            "endTime": "2024-11-09T11:00:00.000Z",
+            "urlType": "penpencilvdo",
+            "exerciseIds": [
+                {
+                    "_id": "6707a1a7f65996583f1cc8dd",
+                    "title": "First Flight : Ch 05 : Glimpses of India : DHA 10 MCQ Quiz",
+                    "slug": "first-flight---ch-05---glimpses-of-india---dha-10-mcq-quiz-307734",
+                    "content": [
+                        {
+                            "_id": "672f72e355ee4dcbf74fb52e",
+                            "exerciseId": {
+                                "_id": "6707a1a64675032609e7a8eb"
+                            },
+                            "timeline": []
+                        }
+                    ]
+                }
+            ],
+            "homeworkIds": [
+                {
+                    "_id": "672f3a9806df01ee7dc03ea7",
+                    "batchSubjectId": "664c4a035e4fa20018ecd829",
+                    "topic": "First Flight : Ch 05 : Glimpses of India : Class Notes || Udaan 2.0 2025",
+                    "note": "Class Notes",
+                    "attachmentIds": [
+                        {
+                            "_id": "672f3a7437149e1cab8e3384",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/ADMIN/7648021a-b2af-40e2-92df-79b7bab96867.pdf",
+                            "name": "First Flight_12_Glimpses of India_Class Notes.pdf"
+                        }
+                    ],
+                    "submissionDate": "2024-11-08T18:30:00.000Z",
+                    "actions": [
+                        "Open",
+                        "Download",
+                        "Print"
+                    ],
+                    "status": "Active"
+                }
+            ],
+            "tags": [
+                {
+                    "_id": "6670867d724bc1291abff5ae",
+                    "name": "First Flight"
+                }
+            ],
+            "topic": "First Flight 12 : Ch 05 : Glimpses of India || Recorded",
+            "isFree": false,
+            "isChatEnabled": false,
+            "isDoubtEnabled": true,
+            "isCommentDisabled": false,
+            "isPathshala": false,
+            "isDPPVideos": false,
+            "isDPPNotes": false,
+            "timeline": [],
+            "slug": "first-flight-12---ch-05---glimpses-of-india-||-recorded-851333",
+            "status": "PENDING",
+            "batchIds": [],
+            "batchId": "65ddb1c70ccebd001804feb5",
+            "scheduleIds": [],
+            "zoomCohostId": [],
+            "contentType": [],
+            "emojiRefreshInterval": 60,
+            "id3Enabled": false,
+            "isAskSaarthiEnabled": false,
+            "isAutomatedDoubtAllocated": false,
+            "isContentSecurityEnabled": false,
+            "isEmojiEnabled": false,
+            "isNoteDisabled": false,
+            "isNotStudyDay": false,
+            "isPollsMigrated": false,
+            "isRecordingEnabled": false,
+            "isShareable": false,
+            "uWebSocketEnabled": true,
+            "lectureType": "RECORDED",
+            "scheduleCode": "7LVW",
+            "scheduleType": "penpencilvdo",
+            "lowDataMode": false,
+            "whiteboardType": "NOTE3",
+            "qbgConceptTags": [],
+            "videoAnalytics": {
+                "isConvivaEnabled": false
+            },
+            "secondaryTeachers": [],
+            "videoMode": null,
+            "previewImageUrl": "",
+            "isSingleScheduling": true,
+            "isParentSchedule": true,
+            "updatedBy": "63525165907919001815e32b",
+            "createdBy": "63525165907919001815e32b",
+            "__v": 3,
+            "conversationId": "672e41ecbabb1ff630feea19",
+            "isMultiSchedule": false,
+            "ldmDelay": 1000,
+            "meetingId": "",
+            "meetingPassword": "",
+            "url": "https://d1d34p8vz63oiq.cloudfront.net/9d6bf4f3-17ff-40fb-b7c2-ec3575d61ab0/master.mpd",
+            "videoDetails": {
+                "_id": "672df7b2707b8dca62caf43c",
+                "id": "672df7b2707b8dca62caf43c",
+                "name": "Subject- English Lec- 12 Climpses of India By ( Anurag Tyagi Sir )",
+                "image": "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/75a65b33-57cc-41f8-9f89-c9e691f0bdb1.png",
+                "videoUrl": "https://d1d34p8vz63oiq.cloudfront.net/9d6bf4f3-17ff-40fb-b7c2-ec3575d61ab0/master.mpd",
+                "description": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n\n</body>\n</html>",
+                "duration": "00:44:04",
+                "status": "Ready",
+                "types": [
+                    "DASH",
+                    "HLS"
+                ],
+                "createdAt": "2024-11-08T11:36:18.129Z",
+                "drmProtected": false
+            },
+            "ratingCount": 4,
+            "chapterId": "66717282c4d41b00189dab14",
+            "dppScheduleId": "672f72737d4255b32d5b2b87",
+            "topicId": "667172ad6419890018e36de6",
+            "subjectId": {
+                "_id": "664c49d884a2730018a9a6a0",
+                "name": "English (Language & Literature)",
+                "slug": "english--language-and-literature--711573"
+            },
+            "isBatchDoubtEnabled": true,
+            "dRoomId": "664c48940a8ec3f4b8e9ccdf",
+            "from": "BATCH_SCHEDULING_SERVICE",
+            "tag": "Ended"
+        },
+        {
+            "_id": "672f72737d4255b32d5b2b87",
+            "createdAt": "2024-11-09T14:32:19.108Z",
+            "updatedAt": "2024-11-09T14:34:51.548Z",
+            "restrictedSchedule": false,
+            "restrictedTime": 0,
+            "batchSubjectId": "664c4a035e4fa20018ecd829",
+            "date": "2024-11-09T00:00:00.000Z",
+            "teachers": [],
+            "day": "SAT",
+            "startTime": "2024-11-09T11:00:00.000Z",
+            "endTime": "2024-11-09T11:00:00.000Z",
+            "urlType": "vimeo",
+            "exerciseIds": [],
+            "homeworkIds": [
+                {
+                    "_id": "672f721bd242972a2c5e3144",
+                    "batchSubjectId": "664c4a035e4fa20018ecd829",
+                    "topic": "First Flight : Ch 05 : Glimpses of India : DHA 10 || Udaan 2.0 2025",
+                    "note": "DPP",
+                    "attachmentIds": [
+                        {
+                            "_id": "672f72189145d14681c93c66",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/ADMIN/40d8b4a6-a153-481d-a44c-34d32c294af6.pdf",
+                            "name": "First Flight _ Glimpses of India _DHA 10.pdf"
+                        }
+                    ],
+                    "submissionDate": "2024-11-08T18:30:00.000Z",
+                    "actions": [
+                        "Open",
+                        "Download",
+                        "Print"
+                    ],
+                    "status": "Active"
+                }
+            ],
+            "tags": [
+                {
+                    "_id": "6670867d724bc1291abff5ae",
+                    "name": "First Flight"
+                }
+            ],
+            "topic": "First Flight : Ch 05 : Glimpses of India : DHA 10",
+            "isFree": false,
+            "isChatEnabled": false,
+            "isDoubtEnabled": false,
+            "isCommentDisabled": false,
+            "isPathshala": false,
+            "isDPPVideos": true,
+            "isDPPNotes": true,
+            "timeline": [],
+            "slug": "first-flight---ch-05---glimpses-of-india---dha-10-038314",
+            "status": "PENDING",
+            "batchIds": [],
+            "batchId": "65ddb1c70ccebd001804feb5",
+            "scheduleIds": [],
+            "zoomCohostId": [],
+            "contentType": [],
+            "emojiRefreshInterval": 60,
+            "id3Enabled": false,
+            "isAskSaarthiEnabled": false,
+            "isAutomatedDoubtAllocated": false,
+            "isContentSecurityEnabled": false,
+            "isEmojiEnabled": false,
+            "isNoteDisabled": false,
+            "isNotStudyDay": false,
+            "isPollsMigrated": false,
+            "isRecordingEnabled": false,
+            "isShareable": false,
+            "uWebSocketEnabled": true,
+            "lectureType": "PDF",
+            "scheduleCode": "WYEW",
+            "lowDataMode": false,
+            "whiteboardType": "NOTE3",
+            "qbgConceptTags": [],
+            "videoAnalytics": {
+                "isConvivaEnabled": false
+            },
+            "secondaryTeachers": [],
+            "videoMode": null,
+            "previewImageUrl": "",
+            "isSingleScheduling": true,
+            "isParentSchedule": false,
+            "updatedBy": "63525165907919001815e32b",
+            "createdBy": "63525165907919001815e32b",
+            "__v": 0,
+            "meetingId": "",
+            "meetingPassword": "",
+            "scheduleType": "vimeo",
+            "subjectId": {
+                "_id": "664c49d884a2730018a9a6a0",
+                "name": "English (Language & Literature)",
+                "slug": "english--language-and-literature--711573"
+            },
+            "isBatchDoubtEnabled": true,
+            "dRoomId": "664c48940a8ec3f4b8e9ccdf",
+            "from": "BATCH_SCHEDULING_SERVICE",
+            "tag": "Ended"
+        },
+        {
+            "_id": "672f58bdd242972a2c5c00b1",
+            "createdAt": "2024-11-09T12:42:37.426Z",
+            "updatedAt": "2024-11-09T14:35:30.583Z",
+            "restrictedSchedule": false,
+            "restrictedTime": 0,
+            "batchSubjectId": "664c491819795b001896dec3",
+            "date": "2024-11-09T00:00:00.000Z",
+            "teachers": [],
+            "day": "SAT",
+            "startTime": "2024-11-09T13:00:00.000Z",
+            "endTime": "2024-11-09T13:00:00.000Z",
+            "urlType": "vimeo",
+            "exerciseIds": [],
+            "homeworkIds": [
+                {
+                    "_id": "672f546f0ece692ebe7b36f1",
+                    "batchSubjectId": "664c491819795b001896dec3",
+                    "topic": "Coordinate Geometry : DHA 04 || Udaan 2.0 2025",
+                    "note": "DPP",
+                    "attachmentIds": [
+                        {
+                            "_id": "672f546c66aafe7d2aaef996",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/ADMIN/a273c0ab-a17d-4248-b6bc-795438ea8173.pdf",
+                            "name": "Coordinate Geometry_DHA 04.pdf"
+                        }
+                    ],
+                    "submissionDate": "2024-11-08T18:30:00.000Z",
+                    "actions": [
+                        "Open",
+                        "Download",
+                        "Print"
+                    ],
+                    "status": "Active"
+                }
+            ],
+            "tags": [
+                {
+                    "_id": "671fbd2de329f7e508257033",
+                    "name": "Coordinate Geometry"
+                }
+            ],
+            "topic": "Coordinate Geometry : DHA 04",
+            "isFree": false,
+            "isChatEnabled": false,
+            "isDoubtEnabled": false,
+            "isCommentDisabled": false,
+            "isPathshala": false,
+            "isDPPVideos": true,
+            "isDPPNotes": true,
+            "timeline": [],
+            "slug": "coordinate-geometry---dha-04-224040",
+            "status": "PENDING",
+            "batchIds": [],
+            "batchId": "65ddb1c70ccebd001804feb5",
+            "scheduleIds": [],
+            "zoomCohostId": [],
+            "contentType": [],
+            "emojiRefreshInterval": 60,
+            "id3Enabled": false,
+            "isAskSaarthiEnabled": false,
+            "isAutomatedDoubtAllocated": false,
+            "isContentSecurityEnabled": false,
+            "isEmojiEnabled": false,
+            "isNoteDisabled": false,
+            "isNotStudyDay": false,
+            "isPollsMigrated": false,
+            "isRecordingEnabled": false,
+            "isShareable": false,
+            "uWebSocketEnabled": true,
+            "lectureType": "PDF",
+            "scheduleCode": "67TF",
+            "lowDataMode": false,
+            "whiteboardType": "NOTE3",
+            "qbgConceptTags": [],
+            "videoAnalytics": {
+                "isConvivaEnabled": false
+            },
+            "secondaryTeachers": [],
+            "videoMode": null,
+            "previewImageUrl": "",
+            "isSingleScheduling": true,
+            "isParentSchedule": false,
+            "updatedBy": "63525165907919001815e32b",
+            "createdBy": "63525165907919001815e32b",
+            "__v": 0,
+            "meetingId": "",
+            "meetingPassword": "",
+            "scheduleType": "vimeo",
+            "subjectId": {
+                "_id": "64366838c8fe900018a2a57a",
+                "name": "Mathematics",
+                "slug": "mathematics-039178"
+            },
+            "isBatchDoubtEnabled": true,
+            "dRoomId": "664c48940a8ec3f4b8e9ccdf",
+            "from": "BATCH_SCHEDULING_SERVICE",
+            "tag": "Ended"
+        }
+    ],
+    "status": 200
+}
