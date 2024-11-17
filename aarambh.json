@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "data": {
+    "isVPClubbingEnabled": false,
+    "enableCommunityWeb": true,
+    "_id": "65dedbbd16156900189fdeec",
+    "appleInAppPurchase": {
+      "enable": false,
+      "_id": "66c23dd6380e77b2a212fd0b"
+    },
+    "attachTestCat": true,
+    "testCats": ["660fffdb2d66c6dadb932ebf"],
+    "countryGroup": "IN",
+    "previewVideoType": "youtube",
+    "type": "E_BATCH",
+    "template": "NORMAL",
+    "isAvailableFromPoints": false,
+    "maxWalletPoint": 0,
+    "enableStudyMaterial": false,
+    "isDoubtEnabled": true,
+    "isDoubtRecommendationEnabled": true,
+    "isAskSaarthiEnabled": false,
+    "isPathshala": false,
+    "roomCount": 0,
+    "userLimit": 0,
+    "userCount": 0,
+    "markedAsNew": true,
+    "status": "Active",
+    "language": "Hinglish",
+    "exam": ["IIT-JEE"],
+    "displayOrder": 0,
+    "isRecorded": false,
+    "enableCommunity": true,
+    "enableSuper40": false,
+    "manualAllotmentCount": 20,
+    "isPayLaterEnabled": false,
+    "isSelfLearning": false,
+    "enableMentorship": true,
+    "isBatchContentSecurityEnabled": false,
+    "infinitePracticeVideoType": "none",
+    "isBatchPlusEnabled": true,
+    "fomoIcons": ["https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/32f8f419-7269-4ae0-a6ce-66db21b81e3f.png"],
+    "name": "Aarambh Batch", 
+    "byName": "For CBSE Class 10th Aspirants", 
+    "description": "<html><body><div class=\"desc-container\">This is the Aarambh Batch, specifically designed to help CBSE Class 10th students excel in their board exams. We cover all essential subjects and provide comprehensive resources to ensure your success.</div></body></html>", 
+    "batchCode": "ARJ241281457", 
+    "programId": "5eb3b1017b1fb86475ec30eb", 
+    "startDate": "2024-07-15T00:00:00.000Z", 
+    "endDate": "2026-06-30T18:29:59.000Z", 
+    "registrationStartDate": "2024-02-27T18:30:00.000Z", 
+    "registrationEndDate": "2026-06-30T18:29:59.000Z", 
+    "isInfinitePracticeEnabled": true, 
+    "class": "10", 
+    "examYear": "2024", 
+    "slug": "aarambh-batch-10th-592892", 
+    "teachers": [
+      {
+        "name": "Digraj Singh Rajput",
+        "image": "https://your-cdn.com/path/to/digraj-singh-rajput.png"
+      },
+      {
+        "name": "Shobhit Nirwan",
+        "image": "https://your-cdn.com/path/to/shobhit-nirwan.png"
+      },
+      {
+        "name": "Prashant Kirad",
+        "image": "https://your-cdn.com/path/to/prashant-kirad.png"
+      }
+    ],
+    "config": {
+      "isStartDateEnabled": false,
+      "isEndDateEnabled": false,
+      "isTeacherNameEnabled": true,
+      "isVidyapeeth": false,
+      "enableBatchReferAndEarn": false,
+      "isFormEnabled": false,
+      "isSubjective": false,
+      "isPremium": true,
+      "classEndDate": "2025-01-29T18:30:00.000Z",
+      "enableNotes": true,
+      "enableDpp": true,
+      "enableDppPdfs": true,
+      "enableDppVideos": true,
+      "isAttendanceEnable": false,
+      "isCardEMIEnable": true,
+      "isSecondaryScreenEnabled": false,
+      "isSPDEnabled": true
+    },
+    "priceLabel": "(For Full Batch)",
+    "packValidity": 0,
+    "shortDescription": "<html><body><div class=\"description-meta-container\">This batch offers a structured study plan for CBSE Class 10th students aiming to excel in their exams.</div></body></html>",
+    "batchPdf": null,
+    "metaText": "",
+    "orientationClassBanner": {
+      "_id": "66a1121e1ce9eb22f5fce9a2",
+      "name": "file.jpeg",
+      "baseUrl": "https://static.pw.live/",
+      "key": "5eb393ee95fab7468a79d189/ADMIN/378a933e-12cd-42db-8dc6-b3bac6520644.jpeg"
+    },
+    "previewImage": {
+      "_id": "670360d49a88c87feaa99af0",
+      "name": "file.jpg",
+      "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+      "key": "5eb393ee95fab7468a79d189/f27a768f-f1e4-4ed9-99a5-569d63b61e6a.jpg"
+    },
+    "previewVideoUrl": "https://your-video-url.com"
+  }
+}
