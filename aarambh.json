@@ -1,108 +1,519 @@
 {
-  "success": true,
-  "data": {
-    "isVPClubbingEnabled": false,
-    "enableCommunityWeb": true,
-    "_id": "65dedbbd16156900189fdeec",
-    "appleInAppPurchase": {
-      "enable": false,
-      "_id": "66c23dd6380e77b2a212fd0b"
-    },
-    "attachTestCat": true,
-    "testCats": ["660fffdb2d66c6dadb932ebf"],
-    "countryGroup": "IN",
-    "previewVideoType": "youtube",
-    "type": "E_BATCH",
-    "template": "NORMAL",
-    "isAvailableFromPoints": false,
-    "maxWalletPoint": 0,
-    "enableStudyMaterial": false,
-    "isDoubtEnabled": true,
-    "isDoubtRecommendationEnabled": true,
-    "isAskSaarthiEnabled": false,
-    "isPathshala": false,
-    "roomCount": 0,
-    "userLimit": 0,
-    "userCount": 0,
-    "markedAsNew": true,
-    "status": "Active",
-    "language": "Hinglish",
-    "exam": ["IIT-JEE"],
-    "displayOrder": 0,
-    "isRecorded": false,
-    "enableCommunity": true,
-    "enableSuper40": false,
-    "manualAllotmentCount": 20,
-    "isPayLaterEnabled": false,
-    "isSelfLearning": false,
-    "enableMentorship": true,
-    "isBatchContentSecurityEnabled": false,
-    "infinitePracticeVideoType": "none",
-    "isBatchPlusEnabled": true,
-    "fomoIcons": ["https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/32f8f419-7269-4ae0-a6ce-66db21b81e3f.png"],
-    "name": "Aarambh Batch", 
-    "byName": "For CBSE Class 10th Aspirants", 
-    "description": "<html><body><div class=\"desc-container\">This is the Aarambh Batch, specifically designed to help CBSE Class 10th students excel in their board exams. We cover all essential subjects and provide comprehensive resources to ensure your success.</div></body></html>", 
-    "batchCode": "ARJ241281457", 
-    "programId": "5eb3b1017b1fb86475ec30eb", 
-    "startDate": "2024-07-15T00:00:00.000Z", 
-    "endDate": "2026-06-30T18:29:59.000Z", 
-    "registrationStartDate": "2024-02-27T18:30:00.000Z", 
-    "registrationEndDate": "2026-06-30T18:29:59.000Z", 
-    "isInfinitePracticeEnabled": true, 
-    "class": "10", 
-    "examYear": "2024", 
-    "slug": "aarambh-batch-10th-592892", 
-    "teachers": [
-      {
-        "name": "Digraj Singh Rajput",
-        "image": "https://your-cdn.com/path/to/digraj-singh-rajput.png"
-      },
-      {
-        "name": "Shobhit Nirwan",
-        "image": "https://your-cdn.com/path/to/shobhit-nirwan.png"
-      },
-      {
-        "name": "Prashant Kirad",
-        "image": "https://your-cdn.com/path/to/prashant-kirad.png"
-      }
-    ],
-    "config": {
-      "isStartDateEnabled": false,
-      "isEndDateEnabled": false,
-      "isTeacherNameEnabled": true,
-      "isVidyapeeth": false,
-      "enableBatchReferAndEarn": false,
-      "isFormEnabled": false,
-      "isSubjective": false,
-      "isPremium": true,
-      "classEndDate": "2025-01-29T18:30:00.000Z",
-      "enableNotes": true,
-      "enableDpp": true,
-      "enableDppPdfs": true,
-      "enableDppVideos": true,
-      "isAttendanceEnable": false,
-      "isCardEMIEnable": true,
-      "isSecondaryScreenEnabled": false,
-      "isSPDEnabled": true
-    },
-    "priceLabel": "(For Full Batch)",
-    "packValidity": 0,
-    "shortDescription": "<html><body><div class=\"description-meta-container\">This batch offers a structured study plan for CBSE Class 10th students aiming to excel in their exams.</div></body></html>",
-    "batchPdf": null,
-    "metaText": "",
-    "orientationClassBanner": {
-      "_id": "66a1121e1ce9eb22f5fce9a2",
-      "name": "file.jpeg",
-      "baseUrl": "https://static.pw.live/",
-      "key": "5eb393ee95fab7468a79d189/ADMIN/378a933e-12cd-42db-8dc6-b3bac6520644.jpeg"
-    },
-    "previewImage": {
-      "_id": "670360d49a88c87feaa99af0",
-      "name": "file.jpg",
-      "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
-      "key": "5eb393ee95fab7468a79d189/f27a768f-f1e4-4ed9-99a5-569d63b61e6a.jpg"
-    },
-    "previewVideoUrl": "https://your-video-url.com"
-  }
+    "success": true,
+    "data": {
+        "isVPClubbingEnabled": false,
+        "enableCommunityWeb": true,
+        "_id": "65dedbbd16156900189fdeec",
+        "appleInAppPurchase": {
+            "enable": false,
+            "_id": "66c23dd6380e77b2a212fd0b"
+        },
+        "attachTestCat": true,
+        "testCats": [
+            "660fffdb2d66c6dadb932ebf"
+        ],
+        "countryGroup": "IN",
+        "previewVideoType": "youtube",
+        "type": "E_BATCH",
+        "template": "NORMAL",
+        "isAvailableFromPoints": false,
+        "maxWalletPoint": 0,
+        "enableStudyMaterial": false,
+        "isDoubtEnabled": true,
+        "isDoubtRecommendationEnabled": true,
+        "isAskSaarthiEnabled": false,
+        "isPathshala": false,
+        "roomCount": 0,
+        "userLimit": 0,
+        "userCount": 0,
+        "markedAsNew": true,
+        "status": "Active",
+        "language": "Hinglish",
+        "exam": [
+            "IIT-JEE"
+        ],
+        "displayOrder": 0,
+        "isRecorded": false,
+        "enableCommunity": true,
+        "enableSuper40": false,
+        "manualAllotmentCount": 20,
+        "isPayLaterEnabled": false,
+        "isSelfLearning": false,
+        "enableMentorship": true,
+        "isBatchContentSecurityEnabled": false,
+        "infinitePracticeVideoType": "none",
+        "isBatchPlusEnabled": true,
+        "fomoIcons": [
+            "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/32f8f419-7269-4ae0-a6ce-66db21b81e3f.png"
+        ],
+        "name": "Arjuna JEE 3.0 2025",
+        "byName": "For JEE 2026 Aspirants",
+        "description": "<!DOCTYPE html>\n<html>\n\n  <head>\n     <style>\n       .desc-container {\n         display: flex;\n         flex-direction: column;\n         padding: 16px 13px;\n       }\n       \n       .desc-row {\n         display: flex;\n         align-items: center;\n         margin-bottom: 16px;\n         border-bottom: 1px solid #efefef;\n         padding: 4px 0;\n       }\n       \n       .desc-row-item-title {\n         font-size: 14px;\n         line-height: 22px;\n         margin-right: 6px;\n       }\n\n       .desc-row-item-content {\n         font-size: 14px;\n         line-height: 18px;\n         margin-right: 6px;\n       }\n     </style>\n  </head>\n\n  <body>\n<div class=\"desc-container\">\n<div class=\"desc-row\">\n<div class=\"desc-row-item-title\">01.</div>\n<div class=\"desc-row-item-content\"><span style=\"font-weight: 400;\">PDF Notes of each Class will be uploaded on PW App.</span></div>\n</div>\n<div class=\"desc-row\">\n<div class=\"desc-row-item-title\">02.</div>\n<div class=\"desc-row-item-content\"><span style=\"font-weight: 400;\">Daily Practice Problems with their Video Solution in Quiz format.</span></div>\n</div>\n<div class=\"desc-row\">\n<div class=\"desc-row-item-title\">03.</div>\n<div class=\"desc-row-item-content\"><span style=\"font-weight: 400;\">Peer to Peer doubt-solving will be provided.</span></div>\n</div>\n<div class=\"desc-row\">\n<div class=\"desc-row-item-title\">04.</div>\n<div class=\"desc-row-item-content\"><span style=\"font-weight: 400;\">&nbsp;Scheduled tests will be held according to the planner.</span></div>\n</div>\n<div class=\"desc-row\">\n<div class=\"desc-row-item-title\">05.</div>\n<div class=\"desc-row-item-content\"><span style=\"font-weight: 400;\">All India Test Series (AITS) will be provided according to the Test Planner. </span></div>\n</div>\n<div class=\"desc-row\">\n<div class=\"desc-row-item-title\">06.</div>\n<div class=\"desc-row-item-content\"><span style=\"font-weight: 400;\">The complete course will be accessible to all the students until the JEE 2026 Exams.</span></div>\n</div>\n<div class=\"desc-row\">\n<div class=\"desc-row-item-title\">07.</div>\n<div class=\"desc-row-item-content\"><span style=\"font-weight: 400;\">Free access to Arjuna JEE 2025 and Arjuna JEE 2.0 2025, Arjuna JEE 4.0 2025<br /></span></div>\n</div>\n<div class=\"desc-row\">\n<div class=\"desc-row-item-title\">08.</div>\n<div class=\"desc-row-item-content\">The registration fee is included in the price of the batch which is showing on the website. The breakup of registration fee will be mentioned on invoice. You may be provided with access to Notes, PYQ&rsquo;s. Mock Test Papers, AITS Test Series, Previous year batches &amp; other materials, the access can vary depending on the batch you purchase, so that exact details might change from one batch to another.</div>\n</div>\n</div>\n</body>\n</html>",
+        "batchCode": "ARJ241281457",
+        "programId": "5eb3b1017b1fb86475ec30eb",
+        "startDate": "2024-07-15T00:00:00.000Z",
+        "endDate": "2026-06-30T18:29:59.000Z",
+        "registrationStartDate": "2024-02-27T18:30:00.000Z",
+        "registrationEndDate": "2026-06-30T18:29:59.000Z",
+        "isInfinitePracticeEnabled": true,
+        "class": "11",
+        "examYear": "2024",
+        "slug": "arjuna-jee-3-0-2025-592892",
+        "config": {
+            "isStartDateEnabled": false,
+            "isEndDateEnabled": false,
+            "isTeacherNameEnabled": false,
+            "isVidyapeeth": false,
+            "enableBatchReferAndEarn": false,
+            "isFormEnabled": false,
+            "isSubjective": false,
+            "isPremium": true,
+            "defaultFbt": "667d343a2b1612001899e6b3",
+            "fbtPageTitle": "Items in Cart",
+            "fbtTitle": "PW Recommended Combos",
+            "isAddonVisible": true,
+            "addonsTitle": "Add more items",
+            "addonsDescription": "Recommended for you",
+            "classEndDate": "2025-01-29T18:30:00.000Z",
+            "enableNotes": true,
+            "enableDpp": true,
+            "enableDppPdfs": true,
+            "enableDppVideos": true,
+            "isAttendanceEnable": false,
+            "isCardEMIEnable": true,
+            "isSecondaryScreenEnabled": false,
+            "isSPDEnabled": true,
+            "contentType": [],
+            "scheduleType": "",
+            "videoType": ""
+        },
+        "priceLabel": "(For Full Batch)",
+        "packValidity": 0,
+        "shortDescription": "<!DOCTYPE html>\n<html lang=\"en\">\n <head>\n   <meta charset=\"UTF-8\" />\n   <style>\n     .description-meta-container {\n       display: flex !important;\n       flex-direction: column !important;\n       gap: 14px !important;\n     }\n\n     .child-container {\n       display: flex !important;\n       align-items: center !important;\n       gap: 12px !important;\n     }\n\n     .icon {\n       width: 32px !important;\n       height: 32px !important;\n     }\n\n     .sub-text {\n       font-size: 14px !important;\n       font-weight: 500 !important;\n     }\n\n     .main-text {\n       font-size: 14px !important;\n       font-weight: 600 !important;\n     }\n\n     .text {\n       font-size: 14px !important;\n       font-weight: 500 !important;\n     }\n\n     .text-container {\n       display: flex !important;\n       flex-direction: column !important;\n       gap: 4px !important;\n     }\n   </style>\n </head>\n <body>\n<div class=\"description-meta-container\">\n<div class=\"child-container\"><strong><img class=\"icon\" src=\"https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/f463046e-0ed5-43b3-981c-944985082135.png\" /></strong>\n<div class=\"text-container\"><span class=\"sub-text\">Duration: </span> <span class=\"main-text\">15 July 2024 - 30 Jan 2025.</span></div>\n</div>\n<div class=\"child-container\"><img class=\"icon\" src=\"https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/972706bc-b79b-41e5-99b4-230290bd296c.png\" />\n<div class=\"text-container\"><span class=\"sub-text\"><span class=\"sub-text\">Validity: <span class=\"main-text\">30 June 2026</span></span><br /></span></div>\n</div>\n<div class=\"child-container\"><img class=\"icon\" src=\"https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9cbf5ddd-2a54-4f92-823c-e908856223c9.png\" /> <span class=\"text\">Online lectures.</span></div>\n<div class=\"child-container\"><img class=\"icon\" src=\"https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9cbf5ddd-2a54-4f92-823c-e908856223c9.png\" /> <span class=\"text\">DPPs and Test With Solutions.&nbsp;</span></div>\n<div class=\"child-container\"><img class=\"icon\" src=\"https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9cbf5ddd-2a54-4f92-823c-e908856223c9.png\" /> <span class=\"text\">Offline counseling at Vidyapeeth Centers.</span></div>\n<div class=\"child-container\"><img class=\"icon\" src=\"https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/9cbf5ddd-2a54-4f92-823c-e908856223c9.png\" /> <span class=\"text\">One to One Telephonic PTM, based on SPD.&nbsp;</span></div>\n<div class=\"child-container\"><img class=\"icon\" src=\"https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/288f8906-de7a-44c8-8dd9-e9b4dfa15ea7.png\" /> Physical support and helpdesk at Vidyapeeth offline Centers.</div>\n<div class=\"child-container\"><img class=\"icon\" src=\"https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/a5affa35-0c73-4ca1-8600-65d7ca8a328b.png\" />\n<div class=\"text-container\"><span class=\"sub-text\"> Subjects: Physics, Chemistry &amp; Maths.</span> <span class=\"main-text\"><br /></span></div>\n</div>\n</div>\n</body>\n</html>",
+        "isSatExamEnable": false,
+        "label": [],
+        "meta": [],
+        "studyMaterials": [],
+        "batchPdf": null,
+        "metaText": "",
+        "orientationClassBanner": {
+            "_id": "66a1121e1ce9eb22f5fce9a2",
+            "name": "file.jpeg",
+            "baseUrl": "https://static.pw.live/",
+            "key": "5eb393ee95fab7468a79d189/ADMIN/378a933e-12cd-42db-8dc6-b3bac6520644.jpeg"
+        },
+        "previewImage": {
+            "_id": "670360d49a88c87feaa99af0",
+            "name": "file.jpg",
+            "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+            "key": "5eb393ee95fab7468a79d189/f27a768f-f1e4-4ed9-99a5-569d63b61e6a.jpg"
+        },
+        "previewVideoUrl": "https://www.youtube.com/watch?v=6L-4RATnadg",
+        "testCat": "660fffdb2d66c6dadb932ebf",
+        "testPress": null,
+        "isAutomatedDoubtAllocated": true,
+        "isBatchClubbing": true,
+        "isSahayakInfinitePracticeEnabled": false,
+        "subExam": "Non - Med",
+        "faqCat": "667d22b280061e0018acd9f0",
+        "khazanaProgramId": "62cc7a39ea773600110bec2f",
+        "dRoomId": "667dabcdff1b176aad718af0",
+        "migratedOn": "2024-06-28T10:49:48.243Z",
+        "ebatchRegistrationDate": "2024-06-28T16:40:54.949Z",
+        "updatedBy": "63ef3b4dd79258001811fa0a",
+        "classEndDate": "2025-01-30T00:00:00.000Z",
+        "iosPreviewImage": null,
+        "iosPreviewImageUrl": null,
+        "financeExamCategory": "IIT-JEE",
+        "notifyMeStatus": "NO_STATUS",
+        "program": {
+            "_id": "5eb3b1017b1fb86475ec30eb",
+            "name": "Complete Programe",
+            "slug": "complete-programe-256787",
+            "board": "CBSE",
+            "class": "12+",
+            "exam": [
+                "AE/JE",
+                "BOARD_EXAM",
+                "BPSC",
+                "Banking",
+                "CA",
+                "COMMERCE",
+                "CUET UG",
+                "FOUNDATION",
+                "GATE",
+                "IIT JAM",
+                "IIT JAM & CSIR NET",
+                "IIT-JEE",
+                "KVPY",
+                "LAW",
+                "MBA",
+                "MPPSC",
+                "MPSC",
+                "NDA",
+                "NEET",
+                "NSAT",
+                "NTSE",
+                "OLYMPIAD",
+                "PRE_FOUNDATION",
+                "PW_ONLY_IAS",
+                "Railway",
+                "SSC",
+                "TET",
+                "UP Exams",
+                "UPPSC",
+                "UPSC",
+                "skills"
+            ],
+            "language": "English"
+        },
+        "fee": {
+            "_id": "65dedb665697190018648b9a",
+            "tax": 0,
+            "discount": 6.662222222222226,
+            "amount": 4500,
+            "total": 4200.2,
+            "currency": "INR",
+            "name": "Arjuna JEE 3.0 2025 (4200)"
+        },
+        "registerTag": "",
+        "isBlocked": false,
+        "isChatBlocked": false,
+        "isPurchased": false,
+        "subjects": [
+            {
+                "_id": "667d650f635bb60018af4c19",
+                "subject": "Physics",
+                "subjectId": "612e2baa0012250011cff6d7",
+                "slug": "physics-478663",
+                "schedules": [
+                    {
+                        "_id": "668ec25f3eee9e00189d529a",
+                        "day": "WED",
+                        "startTime": "2024-07-17T12:45:00.000Z",
+                        "endTime": "2024-07-17T14:30:00.000Z"
+                    },
+                    {
+                        "_id": "668ec25f3eee9e00189d529b",
+                        "day": "THU",
+                        "startTime": "2024-07-18T12:45:00.000Z",
+                        "endTime": "2024-07-18T14:30:00.000Z"
+                    },
+                    {
+                        "_id": "668ec25f3eee9e00189d529c",
+                        "day": "FRI",
+                        "startTime": "2024-07-18T20:28:00.000Z",
+                        "endTime": "2024-07-19T12:15:00.000Z"
+                    }
+                ],
+                "teacherIds": [
+                    {
+                        "_id": "64425893c810200018a7dd97",
+                        "firstName": "Gagan",
+                        "lastName": "Garg Sir",
+                        "imageId": {
+                            "_id": "657ae6d7aee3080019d04a4a",
+                            "name": "WhatsApp_Image_2023-12-14_at_16.43.14_1c648ffe-removebg-preview.png",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/c6c9ed59-e941-44e9-ab2f-1fddf5dee6f2.png",
+                            "organization": "5eb393ee95fab7468a79d189",
+                            "createdAt": "2023-12-14T11:28:23.453Z"
+                        },
+                        "experience": "6",
+                        "qualification": "B.Tech Mechanical from Thapar university",
+                        "featuredLine": "Welcome to PW",
+                        "email": "gagan.garg@pw.live"
+                    }
+                ],
+                "imageId": {
+                    "_id": "644cfa6d47cf840018972a22",
+                    "name": "file.jpg",
+                    "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+                    "key": "5eb393ee95fab7468a79d189/7db0495a-96fd-4cc3-90ff-8fb69be6567c.jpg"
+                },
+                "tagCount": 16,
+                "substituteTeacherIds": [],
+                "batchId": "65dedbbd16156900189fdeec",
+                "displayOrder": 1,
+                "qbgSubjectId": "iydv16vvyph4i0hajzqbqxk2t",
+                "fileId": {
+                    "_id": "668ec2565c5d40b85ba515d8",
+                    "name": "file.pdf",
+                    "baseUrl": "https://static.pw.live/",
+                    "key": "5eb393ee95fab7468a79d189/ADMIN/e0a7283b-d70e-45db-a9e3-5fa6cdf94915.pdf"
+                },
+                "lectureCount": 88
+            },
+            {
+                "_id": "667d63da19e82d00189d74d0",
+                "subject": "Maths",
+                "subjectId": "5f9ff5bed4fc1f011595f1e0",
+                "slug": "maths-297852",
+                "schedules": [
+                    {
+                        "_id": "668ec27643dd8b0018c702bf",
+                        "day": "MON",
+                        "startTime": "2024-07-15T10:45:00.000Z",
+                        "endTime": "2024-07-15T12:15:00.000Z"
+                    }
+                ],
+                "teacherIds": [
+                    {
+                        "_id": "639d80ba46e5e900188679ac",
+                        "firstName": "Lucky",
+                        "lastName": "Jethani Sir",
+                        "imageId": {
+                            "_id": "648408dea7b2340018ff5916",
+                            "name": "ef073751-ce03-4a5d-8830-4b3896ba4095-removebg-preview.png",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/303c9ee7-950a-45ae-8051-30064aea5d4a.png",
+                            "organization": "5eb393ee95fab7468a79d189",
+                            "createdAt": "2023-06-10T05:23:42.691Z"
+                        },
+                        "experience": "11",
+                        "qualification": "B Tech Nit Raipur Mtech IIT Mumbai",
+                        "featuredLine": "Welcome to PW",
+                        "email": "lucky.jethani@pw.live",
+                        "introductionVideoId": "645b9edf4a816c001849a8c9",
+                        "introVideoThumbnail": "648408e219b78800188437aa"
+                    }
+                ],
+                "imageId": {
+                    "_id": "64afcd925593180019419757",
+                    "name": "file.png",
+                    "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+                    "key": "5eb393ee95fab7468a79d189/4ce5a759-dd94-42d4-a7a9-e41f717833ab.png"
+                },
+                "tagCount": 17,
+                "substituteTeacherIds": [],
+                "batchId": "65dedbbd16156900189fdeec",
+                "displayOrder": 2,
+                "qbgSubjectId": "19c8p297y48dy01537cxzinys",
+                "fileId": {
+                    "_id": "668ec26bc3c5d9d056cd304b",
+                    "name": "file.pdf",
+                    "baseUrl": "https://static.pw.live/",
+                    "key": "5eb393ee95fab7468a79d189/ADMIN/2130ef89-04ad-4b5f-9ac9-185d15baef06.pdf"
+                },
+                "lectureCount": 80
+            },
+            {
+                "_id": "667d63f8070a840018ef4a5e",
+                "subject": "Physical Chemistry",
+                "subjectId": "5fa000977d57900119ba29db",
+                "slug": "physical-chemistry-051507",
+                "schedules": [
+                    {
+                        "_id": "668ec28c4a4f3c001853a68a",
+                        "day": "MON",
+                        "startTime": "2024-07-15T12:45:00.000Z",
+                        "endTime": "2024-07-15T14:30:00.000Z"
+                    }
+                ],
+                "teacherIds": [
+                    {
+                        "_id": "636895ee61b2560011d52d69",
+                        "firstName": "Faisal",
+                        "lastName": "Razaq Sir",
+                        "imageId": {
+                            "_id": "64c4bf3fcab90e001868d0fe",
+                            "name": "FC7206D2-2CCE-4B60-BC41-327DED21F6C7_-_Faisal_Razaq-removebg-preview.png",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/4cf7fa45-4db1-494a-9154-4766b7f5cebc.png",
+                            "organization": "5eb393ee95fab7468a79d189",
+                            "createdAt": "2023-07-29T07:26:55.549Z"
+                        },
+                        "experience": "22",
+                        "qualification": "B.Tech (IIT,ROORKEE)",
+                        "featuredLine": "Welcome to PW Family",
+                        "email": "faisal.razaq@pw.live",
+                        "introductionVideoId": "6448d78352e1210018dcd05b",
+                        "introVideoThumbnail": "6489741330d932001817f9ec"
+                    }
+                ],
+                "imageId": {
+                    "_id": "64afcbd8abad4e0018d2f68d",
+                    "name": "file.png",
+                    "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+                    "key": "5eb393ee95fab7468a79d189/88b9f017-e6d0-402f-a277-a58bed5f99bd.png"
+                },
+                "tagCount": 9,
+                "substituteTeacherIds": [],
+                "batchId": "65dedbbd16156900189fdeec",
+                "displayOrder": 2,
+                "qbgSubjectId": "rvbaz3e3wz2qfpkfeiuhwzxwd",
+                "fileId": {
+                    "_id": "668ec281c3c5d9d056cd304f",
+                    "name": "file.pdf",
+                    "baseUrl": "https://static.pw.live/",
+                    "key": "5eb393ee95fab7468a79d189/ADMIN/318cfffc-572e-469e-9a81-4a674602c175.pdf"
+                },
+                "lectureCount": 52
+            },
+            {
+                "_id": "667d64471f20b500182a3473",
+                "subject": "Organic Chemistry",
+                "subjectId": "632586243d76ec003855ab7e",
+                "slug": "organic-chemistry-807369",
+                "schedules": [
+                    {
+                        "_id": "668ec2a6ac1f2b00187f70b3",
+                        "day": "MON",
+                        "startTime": "2024-07-15T12:45:00.000Z",
+                        "endTime": "2024-07-15T14:30:00.000Z"
+                    }
+                ],
+                "teacherIds": [
+                    {
+                        "_id": "60ae16d5bb25df001123131d",
+                        "firstName": "Harsh",
+                        "lastName": "Tyagi Sir",
+                        "imageId": {
+                            "_id": "65d2268cfbeb78001863a042",
+                            "name": "7abd6500-9ccd-4030-928f-9000cc8a3ee6.png",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/e1baf750-6d23-4d1c-b1ac-6f4280f16285.png",
+                            "organization": "5eb393ee95fab7468a79d189",
+                            "createdAt": "2024-02-18T15:47:24.051Z"
+                        },
+                        "experience": "9",
+                        "qualification": "B.Sc Chemistry Honours",
+                        "featuredLine": "Welcome to Pw Family",
+                        "email": "harsh@pw.live",
+                        "introductionVideoId": "6448d7085263c20018bac517",
+                        "introVideoThumbnail": "648973be05c5dc0018bfc760"
+                    }
+                ],
+                "imageId": {
+                    "_id": "64afcbb8f817ff0018e05797",
+                    "name": "file.png",
+                    "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+                    "key": "5eb393ee95fab7468a79d189/fd516bc7-0196-45ee-a8dd-cf95935a2bfa.png"
+                },
+                "tagCount": 3,
+                "substituteTeacherIds": [],
+                "batchId": "65dedbbd16156900189fdeec",
+                "displayOrder": 4,
+                "qbgSubjectId": "kswz6hl6ilflsmle3zitflp5s",
+                "fileId": {
+                    "_id": "668ec2995c5d40b85ba515de",
+                    "name": "file.pdf",
+                    "baseUrl": "https://static.pw.live/",
+                    "key": "5eb393ee95fab7468a79d189/ADMIN/50168d8f-e8f0-408c-96bf-59894cc83319.pdf"
+                },
+                "lectureCount": 0
+            },
+            {
+                "_id": "66a0f45dc39e380018402de8",
+                "subject": "English",
+                "subjectId": "612e2bb8d6f2bb0018c55037",
+                "slug": "english-892777",
+                "schedules": [
+                    {
+                        "_id": "66a0f45dc39e380018402de9",
+                        "day": "MON",
+                        "startTime": "2024-07-15T12:30:00.000Z",
+                        "endTime": "2024-07-15T12:30:00.000Z"
+                    }
+                ],
+                "teacherIds": [],
+                "imageId": {
+                    "_id": "64afe69299046200189ada91",
+                    "name": "file.png",
+                    "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+                    "key": "5eb393ee95fab7468a79d189/8e26efb5-ac95-4692-94e4-95159d8259a5.png"
+                },
+                "tagCount": 5,
+                "substituteTeacherIds": [],
+                "batchId": "65dedbbd16156900189fdeec",
+                "displayOrder": 4,
+                "qbgSubjectId": "wx51vc7odqj781rjuf5sno6x7",
+                "fileId": null,
+                "lectureCount": 26
+            },
+            {
+                "_id": "667d642a16a3770018105f98",
+                "subject": "Inorganic Chemistry",
+                "subjectId": "6325860c3bd79300187bd1d9",
+                "slug": "inorganic-chemistry-828416",
+                "schedules": [
+                    {
+                        "_id": "668ec2d343dd8b0018c70320",
+                        "day": "MON",
+                        "startTime": "2024-07-15T12:45:00.000Z",
+                        "endTime": "2024-07-15T14:30:00.000Z"
+                    }
+                ],
+                "teacherIds": [
+                    {
+                        "_id": "625a78bb3701160011acb5d6",
+                        "firstName": "Sagar",
+                        "lastName": "Varjatia Sir",
+                        "imageId": {
+                            "_id": "64a6916050d3c90018a2acaa",
+                            "name": "Sagar-Varjatia-Sir.png",
+                            "baseUrl": "https://static.pw.live/",
+                            "key": "5eb393ee95fab7468a79d189/bfcd1f9f-fa27-4d81-9dd4-dc51ed7e8581.png",
+                            "organization": "5eb393ee95fab7468a79d189",
+                            "createdAt": "2023-07-06T10:03:12.992Z"
+                        },
+                        "experience": "11",
+                        "qualification": "M.Sc Chemistry",
+                        "featuredLine": "Welcome to PW Family!",
+                        "email": "sagar.varjatia@pw.live",
+                        "introductionVideoId": "6448d507b03ef50018d9650c",
+                        "introVideoThumbnail": "64a691666c379e0018a4b87b"
+                    }
+                ],
+                "imageId": {
+                    "_id": "64afcba299046200189a5a56",
+                    "name": "file.png",
+                    "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+                    "key": "5eb393ee95fab7468a79d189/753e2060-0c6f-4d1c-aef2-6db6b0356db2.png"
+                },
+                "tagCount": 7,
+                "substituteTeacherIds": [],
+                "batchId": "65dedbbd16156900189fdeec",
+                "displayOrder": 5,
+                "qbgSubjectId": "4mg7wnqamncgwznj7vzpyu6h1",
+                "fileId": {
+                    "_id": "668ec2b4c3c5d9d056cd3055",
+                    "name": "file.pdf",
+                    "baseUrl": "https://static.pw.live/",
+                    "key": "5eb393ee95fab7468a79d189/ADMIN/7835a84b-5c00-4924-8089-6474a39023ae.pdf"
+                },
+                "lectureCount": 28
+            },
+            {
+                "_id": "667ee99d2bf3db001818c17d",
+                "subject": "Notices",
+                "subjectId": "5f821b41c94a920018e76340",
+                "slug": "notices-918913",
+                "schedules": [
+                    {
+                        "_id": "667ee99d2bf3db001818c17e",
+                        "day": "MON",
+                        "startTime": "2024-07-15T14:30:00.000Z",
+                        "endTime": "2024-07-15T14:30:00.000Z"
+                    }
+                ],
+                "teacherIds": [],
+                "imageId": {
+                    "_id": "654b5b97a6cfa80018a30969",
+                    "name": "file.png",
+                    "baseUrl": "https://d2bps9p1kiy4ka.cloudfront.net/",
+                    "key": "5eb393ee95fab7468a79d189/95a17012-9abb-4254-82d9-2b18ce08d9dc.png"
+                },
+                "tagCount": 8,
+                "substituteTeacherIds": [],
+                "batchId": "65dedbbd16156900189fdeec",
+                "displayOrder": 6,
+                "qbgSubjectId": "80ltcvhd7imusu1xfro6rsjsp",
+                "fileId": null,
+                "lectureCount": 21
+            }
+        ],
+        "optedInForNotifications": false,
+        "discountValue": 0
+    }
 }
